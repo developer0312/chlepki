@@ -1,0 +1,427 @@
+body {
+  font-family: "roboto", sans-serif;
+}
+section {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+section .section-header {
+  text-align: center;
+  font-family: "roboto", sans-serif;
+  color: darkorange;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+}
+.main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.83), rgba(0, 0, 0, 0.83)), url(../img/the-creative-exchange-365158.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+}
+.main-nav li {
+  display: inline-block;
+}
+.main-nav li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: "roroto", sans-serif;
+  font-size: 15px;
+}
+.main-nav li a:hover {
+  border: 1px solid white;
+  padding-bottom: 0.75rem;
+  border-radius: 5px;
+}
+.main-logo {
+  width: 300px;
+  height: auto;
+  float: left;
+}
+.main-logo .logo-name {
+  display: inline-block;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+.main-logo .logo-name span {
+  color: yellow;
+}
+.main-content h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  color: white;
+  font-family: "roroto", sans-serif;
+  text-align: center;
+  margin-top: 12rem;
+  letter-spacing: 3px;
+}
+.main-content p {
+  text-transform: uppercase;
+  text-align: center;
+  color: white ;
+  font-family: "roboto", sans-serif;
+  margin-top: 2rem;
+  font-size: 18px;
+}
+.main-button {
+  margin-top: 5rem;
+  text-align: center;
+}
+.main-button .button-one {
+  border: 1px solid white;
+  padding: 10px 30px;
+  color: white;
+  text-decoration: none;
+  margin-right: 2rem;
+  font-size: 13px;
+  text-transform: uppercase;
+  background-color: darkorange;
+  font-family: "roroto", sans-serif;
+}
+.main-button .button-two {
+  border: 1px solid white;
+  padding: 10px 30px;
+  color: white;
+  text-decoration: none;
+  margin-right: 2rem;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: "roroto", sans-serif;
+}
+.main-button .button-two:hover {
+  background-color: darkorange;
+  transition: all 0.5s ease-in;
+}
+.main-button .button-btn {
+  border-radius: 5px;
+  border: 1px solid white;
+  padding: 10px 30px;
+  color: white;
+  text-decoration: none;
+  margin-right: 2rem;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.main-scroll-down {
+  text-align: center;
+  margin-top: 20rem;
+}
+.features {
+  font-family: "roboto", sans-serif;
+}
+.features h2 {
+  text-align: center;
+  font-family: "roboto", sans-serif;
+  color: darkorange;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+}
+.features-block {
+  text-align: center;
+}
+.features-block h3 {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+.features-block p {
+  display: inline-block;
+  width: 80%;
+  font-size: 1.4rem;
+}
+.features-img {
+  height: 8rem;
+  margin-bottom: 3rem;
+}
+.features-img img {
+  display: block;
+  margin: 0 auto;
+}
+.features .slick-active {
+  outline: none;
+}
+.features .arrow {
+  top: 50%;
+  transform: translateY(50%);
+  position: absolute;
+  z-index: 99;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+}
+.features .prev {
+  left: 0;
+  background: url(../img/left.png) center no-repeat;
+  background-size: 70%;
+}
+.features .next {
+  right: 0;
+  background: url(../img/right.png) center no-repeat;
+  background-size: 70%;
+}
+.price .button {
+  border: 1px solid gray;
+  background-color: darkorange;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.price h2 {
+  text-align: center;
+  font-family: "roboto", sans-serif;
+  color: darkorange;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+}
+.price-block {
+  padding: 1rem 3rem 4rem;
+  min-height: 56.5rem;
+  background: white;
+  text-align: center;
+  box-shadow: 7px 12px 21px 0px rgba(0, 0, 0, 0.17);
+}
+.price-block h4 {
+  margin: 3rem 0rem;
+  font-size: 1.8rem;
+}
+.price-block img {
+  width: 100%;
+  max-width: 30rem;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+.price-tag {
+  display: block;
+  margin-bottom: 2rem;
+  font-size: 1.9rem;
+}
+.price p {
+  min-height: 6rem;
+}
+.feedback {
+  display: block;
+}
+.feedback .feedbacks .avatar h4 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-right: 1rem;
+}
+.feedback .feedbacks .avatar img {
+  max-height: 180px;
+  max-width: 180px;
+  margin-bottom: 2rem;
+}
+.feedback .feedbacks .comments-box {
+  border-radius: 5px;
+  margin-top: 2rem;
+  border: 1px solid orange;
+  padding: 2rem 2rem 2rem 2rem;
+}
+.feedback .feedbacks .comments-box img {
+  max-height: 30px;
+  max-width: 30px;
+  margin-top: 1rem;
+}
+/* .feedback1{
+	display: inline-block;
+	
+	.feedbacks1{
+	    margin-top: 10rem;
+		margin-bottom: 10rem;	
+	  .avatar{
+
+		h4{
+			text-align: center;
+		    text-transform: uppercase;
+		    margin-right: 1rem;
+		}
+		img{
+			max-height: 180px;
+			max-width: 180px;
+			margin-bottom: 2rem;
+		}
+	  }
+	 .comments-box{
+
+		border-radius: 5px;
+		margin-top: 2rem;
+		border: 1px solid orange;
+		padding: 2rem 2rem 2rem 2rem;
+		img{
+			max-height: 30px;
+			max-width: 30px;
+			margin-top: 1rem;
+		}
+	  }
+  }
+}
+.feedback2{
+	display: block;
+	
+	.feedbacks2{
+	    margin-top: 10rem;
+		margin-bottom: 10rem;	
+	  .avatar{
+
+		h4{
+			text-align: center;
+		    text-transform: uppercase;
+		    margin-right: 1rem;
+		}
+		img{
+			max-height: 180px;
+			max-width: 180px;
+			margin-bottom: 2rem;
+		}
+	  }
+	 .comments-box{
+		border-radius: 5px;
+		margin-top: 2rem;
+		border: 1px solid orange;
+		padding: 2rem 2rem 2rem 2rem;
+		img{
+			max-height: 30px;
+			max-width: 30px;
+			margin-top: 1rem;
+		}
+	  }
+  }
+} */
+.contacts {
+  margin-bottom: 0rem;
+  background-color: lightgray;
+}
+.contacts .row {
+  border: 1px solid orange;
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 5px;
+}
+.contacts h3 {
+  color: orange;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+.contacts p {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.contacts li {
+  text-decoration: none;
+  list-style: none;
+}
+.form {
+  background-color: darkorange;
+}
+.form .button-btn {
+  border-radius: 5px;
+  border: 1px solid white;
+  padding: 10px 30px;
+  color: white;
+  text-decoration: none;
+  margin-right: 2rem;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.form h2 {
+  color: white;
+}
+.form .input {
+  text-align: center;
+}
+.form .input .row {
+  display: block;
+  padding: 7px 8px;
+  margin-bottom: 7px;
+}
+.form .input .row:active,
+.form .input .row:hover,
+.form .input .row:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+.footer {
+  text-align: center;
+  color: white;
+  background-color: black;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.footer li {
+  list-style: none;
+}
+@media (max-width: 767px) {
+  .main .main-logo {
+    text-align: right;
+  }
+  .main ul li {
+    display: none;
+  }
+  .main h1 {
+    margin-top: 3rem;
+  }
+  .main li {
+    text-align: center;
+  }
+  .feedback {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+  .feedback .avatar {
+    text-align: center;
+  }
+  .feedback .comment-box {
+    margin-top: 0rem;
+  }
+  .contacts {
+    text-align: center;
+  }
+  .footer .row .main-logo {
+    display: none;
+  }
+  .footer .row p {
+    text-align: center;
+  }
+  .footer .row .table {
+    text-align: center;
+  }
+}
+@media (max-width: 991px) {
+  .feedback .avatar {
+    margin-bottom: 10rem;
+    text-align: center;
+  }
+  .feedback .comment-box {
+    margin-top: 30rem;
+  }
+  .footer .row .main-logo {
+    display: none;
+  }
+  .footer .row p {
+    text-align: center;
+  }
+  .footer .row .table {
+    text-align: center;
+  }
+  .main .main-logo {
+    text-align: center;
+  }
+  .contacts .map {
+    text-align: center;
+  }
+  .contacts .row {
+    text-align: center;
+  }
+}
